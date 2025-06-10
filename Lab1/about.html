@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+
+<body>
+    <p></p><a href="index-1.html">О нас</a></p>
+    <img src="img/summer.jpeg" alt="пляжик" width="350" height="200">
+    <p><a href="files/archive.zip" download>Скачать архив</a></p>
+    <svg xmlns="http://www.w3.org/2000/svg" height="400" width="450">
+        <path d="M100 350 250 50m0 0 150 300" stroke="red" stroke-width="3" fill="none" />
+        <path d="M175 200h150" stroke="green" stroke-width="3" fill="none" />
+        <path d="M100 350q150-300 300 0" stroke="#00f" stroke-width="5" fill="none" />
+        <!-- Mark relevant points -->
+        <g stroke="#000" stroke-width="3">
+            <circle cx="100" cy="350" r="3" />
+            <circle cx="250" cy="50" r="3" />
+            <circle cx="400" cy="350" r="3" />
+        </g>
+        <!-- Label the points -->
+        <g font-size="30" font-family="sans-serif" text-anchor="middle">
+            <text x="100" y="350" dx="-30">A</text>
+            <text x="250" y="50" dy="-10">B</text>
+            <text x="400" y="350" dx="30">C</text>
+        </g>
+    </svg>
+
+    <svg xmlns="http://www.w3.org/2000/svg" height="500" width="600">
+
+        <defs>
+            <radialGradient id="grad1" cx="30%" cy="30%" r="70%">
+                <stop offset="0%" stop-color="purple" stop-opacity="0.8" />
+                <stop offset="100%" stop-color="blue" stop-opacity="0.4" />
+            </radialGradient>
+        </defs>
+        <circle cx="100" cy="100" r="80" fill="url(#grad1)" stroke="navy" stroke-width="4" stroke-opacity="0.6" />
+
+        <defs>
+            <pattern id="pattern1" width="20" height="20" patternUnits="userSpaceOnUse">
+                <rect width="10" height="10" fill="red" opacity="0.6" />
+                <rect x="10" y="10" width="10" height="10" fill="red" opacity="0.6" />
+            </pattern>
+        </defs>
+        <rect x="250" y="50" width="150" height="100" fill="url(#pattern1)" stroke="black" stroke-width="2"
+            stroke-dasharray="5,3" />
+
+        <polygon points="500,100 530,180 620,180 550,230 580,310 500,260 420,310 450,230 380,180 470,180" fill="gold"
+            fill-opacity="0.7" stroke="orange" stroke-width="3" />
+
+
+        <path id="textPath" d="M50 300 Q200 350 350 300 T650 300" fill="none" />
+        <text font-family="Arial" font-size="20" fill="green">
+            <textPath href="#textPath">Кривой чел</textPath>
+        </text>
+
+        <path d="M100 400 C200 350 300 450 400 400 S500 300 550 350" fill="none" stroke="brown" stroke-width="4"
+            stroke-opacity="0.8" />
+
+        <g opacity="0.8">
+            <rect x="400" y="350" width="120" height="120" fill="cyan" transform="rotate(15 460 410)" />
+            <circle cx="460" cy="410" r="60" fill="magenta" fill-opacity="0.5" />
+            <polygon points="460,350 490,450 430,450" fill="yellow" stroke="black" stroke-width="2" />
+        </g>
+    </svg>
+
+    <video width="720" height="540" controls>
+        <source src="media/video5348382843674327528.mp4" type="video/mp4">
+    </video>
+    <audio controls loop>
+        <source src="media/ai_music_professionals_kizaru_fake_id_x_pugacheva_pozovi_menia_z.m4a" type="audio/mpeg" />
+    </audio>
+
+</body>
+</html>
