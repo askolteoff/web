@@ -1,0 +1,50 @@
+
+
+body {
+	background-color: white;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+#controls,
+#overall,
+#puzzlearea {
+	width: 400px;
+}
+
+#controls {
+	padding-top: 10px;
+	text-align: center;
+}
+
+h1 {
+	margin: 10px 0px;
+	text-align: center;
+}
+
+
+#overall {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#puzzlearea {
+	font-size: 32px;
+	height: 400px;
+	padding: 0px;
+	position: relative;
+}
+
+.puzzlepiece {
+	background-image: url(background.jpg);
+	border: 2px solid black;
+	height: 96px;
+	line-height: 96px;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	width: 96px;
+}
+
+

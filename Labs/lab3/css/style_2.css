@@ -1,0 +1,10 @@
+.text {
+    position: absolute;
+    z-index: 2;
+    color: red;
+}
+
+.photo {
+    position: absolute;
+    z-index: -1;
+}
